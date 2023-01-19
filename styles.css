@@ -1,0 +1,23 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.app{
+    display: flex;
+    justify-content: space-evenly;
+    height:100vh;
+    align-items:center
+}
+.time-picker,.play-container,.sound-picker{
+    flex:1;
+    height:80%  
+}
+.time-picker{
+  background:lightblue;
+}
+.play-container{
+    background:red;
+}
+.sound-picker{
+    background:pink;
+}
